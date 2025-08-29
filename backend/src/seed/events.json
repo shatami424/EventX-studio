@@ -1,0 +1,19 @@
+[
+  {
+    "title": "Tech Summit Cairo",
+    "date": "2025-09-10T18:00:00.000Z",
+    "venue": "Cairo Expo Center",
+    "price": 35,
+    "totalSeats": 50,
+    "tags": ["tech","dev","networking"],
+    "coverImage": ""
+  },
+  {
+    "title": "Indie Music Night",
+    "date": "2025-10-05T20:00:00.000Z",
+    "venue": "Riverside Stage",
+    "price": 20,
+    "totalSeats": 80,
+    "tags": ["music","live"]
+  }
+]

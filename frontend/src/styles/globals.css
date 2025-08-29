@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom global styles */
+body {
+  @apply bg-background text-[#2F3349] font-sans;
+}
+
+/* Basic Sneat-like components */
+.card {
+  @apply bg-card shadow-card rounded-xl border border-border;
+}
+.btn {
+  @apply inline-flex items-center justify-center rounded-lg px-4 py-2 font-medium shadow-soft transition-colors;
+}
+.btn-primary { @apply bg-primary text-primary-foreground hover:opacity-90; }
+.btn-outline { @apply border border-border text-[#566A7F] bg-white hover:bg-gray-50; }
+.badge {
+  @apply inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium;
+}
+.badge-success { @apply bg-success text-white; }
+.badge-warning { @apply bg-warning text-white; }
+.badge-danger { @apply bg-danger text-white; }

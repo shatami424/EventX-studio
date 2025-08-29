@@ -1,0 +1,34 @@
+# Node
+node_modules/
+npm-debug.log*
+pnpm-lock.yaml
+yarn.lock
+
+# Build outputs
+dist/
+build/
+.cache/
+
+# Env
+.env
+*.env
+frontend/.env
+backend/.env
+
+# Logs
+logs
+*.log
+backend/*.log
+frontend/*.log
+
+# Editor
+.vscode/
+.DS_Store
+
+# Coverage
+coverage/
+
+# Misc
+*.local
+*.swp
+*.swo
